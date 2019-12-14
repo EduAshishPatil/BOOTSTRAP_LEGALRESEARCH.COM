@@ -1,0 +1,35 @@
+#software {
+    padding: 180px 0 !important;
+}
+
+.addCard {
+    padding: 5px;
+}
+
+article#table {
+    padding-top: 50px;
+}
+
+tr,
+td {
+    padding: 5px 20px !important;
+}
+
+tr {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+td {
+    font-size: 20px;
+    line-height: 60px;
+}
+
+table {
+    padding-left: 10% !important;
+}
+
+a .fas {
+    padding-right: 5px !important;
+    padding: 10px 0 !important;
+}

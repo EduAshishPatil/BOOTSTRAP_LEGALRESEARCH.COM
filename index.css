@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* =============RESPONSIVE================ */
+
+@media (max-width: 360px) {
+    #font h2 {
+        font-size: 35px !important;
+    }
+    span.logo {
+        font-size: 40px !important;
+    }
+}
+
+@media (max-width: 1200px) {}
+
+
+/* ======================================== */
+
+
+/* NAVBAR */
+
+iframe {
+    display: block;
+    width: 100px;
+    height: 50%;
+}
+
+div.navBar {
+    background-color: cadetblue;
+}
+
+.navbar-header {
+    text-align: center;
+    padding: 30px 0;
+}
+
+
+/* ANCHER TAGS */
+
+nav li {
+    font-size: 18px;
+    padding: 10px 50px;
+    margin: 10px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav li:hover {
+    background-color: rgba(112, 187, 119, 1);
+    transition: all 0.4s;
+}
+
+nav li:hover a {
+    color: #f8f9fa !important;
+    transition: all 0.4s;
+}
+
+nav a {
+    color: black;
+    text-decoration: none !important;
+    font-weight: 600;
+}
+
+
+/* MAIN SECITON */
+
+div.mainSection {
+    background-color: rgba(112, 187, 119, 1);
+    padding: 180px 0;
+}
+
+span {
+    color: white;
+    font-weight: 800;
+    /* font-family: 'Handlee', cursive; */
+}
+
+span.logo {
+    font-size: 60px;
+    font-weight: 800;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Alegreya', serif;
+    font-family: 'Caveat', cursive;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Handlee', cursive;
+    font-family: 'Parisienne', cursive;
+}
+
+.hero-section .container {
+    display: flex;
+    align-items: flex-end;
+}
+
+h2,
+.navbar-brand {
+    font-size: 50px;
+    line-height: 4.5rem;
+}
+
+#jumbotron {
+    background-color: rgba(112, 187, 119, 1);
+    padding: 0 !important;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/* FOOTER */
+
+.fab {
+    font-size: 30px;
+}
+
+.fa-handshake {
+    margin: 80px 0;
+    font-size: 60px;
+}
+
+footer {
+    padding: 100px;
+}
+
+#footer {
+    padding: 20px 0;
+}
+
+footer .fab:hover {
+    /* color: rgba(112, 187, 119, 1); */
+    color: white !important;
+}
+
+footer li {
+    font-size: 18px;
+    padding: 10px 50px;
+    margin: 10px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer li:hover {
+    background-color: rgba(112, 187, 119, 1);
+    transition: all 0.4s;
+    color: white !important;
+}
+
+footer li:hover a {
+    color: white !important;
+    transition: all 0.4s;
+}
+
+footer a {
+    color: black;
+    text-decoration: none !important;
+    font-weight: 600;
+}

@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fas {
+    font-size: 60px;
+    color: white;
+}
+
+body {
+    background-color: rgba(112, 187, 119, 1);
+}
+
+#signup {
+    line-height: 10px;
+}
+
+input,
+label {
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#birthDate {
+    width: 50%;
+}
+
+input[placeholder] {
+    text-align: center;
+}
